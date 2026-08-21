@@ -3,67 +3,301 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: -170px
+    left: -30%
+    width: 30%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
-
-
+    top: -150px
+    right: 4%
+    width: 30%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 95%
+    left: -15%
+    width: 30%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 38% 
+  margin-left: -40px
+  @media only screen and (max-width: 1023px)
+    width: 100%
+
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+  width: 33%
     
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
-
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: white !important   
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+figcaption
+  font-weight: normal
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 10% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+      margin-bottom: 10% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #513018 !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #513018
+  background-color: #D9E5EF
+
+.cen
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
 
 
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
-  background-size: cover
+.bg1
+  background-color: #F5FAE9
+
+.bg2
+  background: url('../assets/curso/tema1/3.png')
+  background-size: 100% 100%
   background-repeat: no-repeat
   background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
+  min-height: 327px
+  @media only screen and (max-width: 767px)
+    min-height: auto 
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    min-height: auto
+
+.tit
+  background-color: #98CD2C
+  border-radius: 50px 
+  width: fit-content
+  padding: 8px 20px 8px 65px
+  position: relative
+  display: inline-flex
+  align-items: center
+  margin-left: 15px
+  & 
+    h3
+      color: black
+.tit img
+  width: 63px
+  height: 63px
+  position: absolute
+  top: 45%
+  left: -18px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+    top: 40%
+  @media only screen and (max-width: 767px)
+    top: 48%
+    width: 55px
+    height: 55px
+
+.acordion__accion__btn--a
+  background-color: #56C9E0
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #D8B9A8
+  h3
+    color: black
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: black
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #56C9E0
+  i
+    color: black !important
+.activ
+  .acordion__activo 
+    background-color: #E5FBFB !important
+    transition: all 0.3s ease-out
+    h3
+      color: black 
+
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.4
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 30%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 70%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #193D04
+  color: white !important
+.color-a
+  background-color: #E5FBFB
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #56C9E0 !important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color: #56C9E0!important
+
+.tarjetaf
+  background: url('../assets/curso/tema1/fd1.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+.slyder-a__bullets__item 
+  background-color: #CAC0B9
+  border-color: #CAC0B9
+.slyder-a__bullets__item--active 
+  background-color: #56C9E0 !important
+  border-color: #56C9E0 !important
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+  background-color: #56C9E0
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+  background-color: #56C9E0
+
+.titu
+  background-color: #D8B9A8
+  border-radius: 50px
+  width: fit-content
+
+.tarjeta--slyder.b1
+  background: url('../assets/curso/tema1/fd2.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+.slyder-f__btn i 
+  font-size: 4rem
+  color: #56C9E0
+
+.bloque-texto-g.color-primario 
+  background-color: #D6EBAA
+
+.tarjeta-audio 
+  border: 3px solid
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: black
+.fst-italic 
+  font-style: normal !important
+.tarjeta.color-primario i
+  color: #000
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: black
+  font-style: normal !important
+.tarjeta.color-primario * 
+  color: #000
+
+.bg3
+  background: url('../assets/curso/tema3/2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+
+.bg4
+  background-color: #3D5211
+  border-radius: 14px
+
+.bg5
+  background-color: #F5FAE9
+  border-radius: 14px
+
+.bg7
+  background-color: #D6EBAA
+  border-radius: 18px 0px 0px 18px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 18px 0px 0px 18px
+.bg8
+  background-color: #D8B9A8
+  border-radius: 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 18px 18px 0px
+.bg9
+  background-color: #513018
+  border-radius: 0px 18px 18px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 20px
+
+.cajon.color-primario
+  background-color: #EDEAE7
+  &:before 
+    background-color: #513018
+
+.color-prima
+  background-color: #D2E1F1
+
+.acordion__accion__btn--b
+  background-color: #56C9E0
+  transition: all 0.3s ease-out
+  border: #56C9E0
+  color: black
+.acordion__activo
+  background-color: #E5FBFB !important
+  transition: all 0.3s ease-out
+  h3
+    color: black !important
+.tarjeta--grey
+  border-radius: 20px
+  background-color: #D8B9A8
+  //h3
+    color: white
+.acordion.press .acordion__activo .acordion__accion__btn--b
+  background-color: #56C9E0
+  color: black
 
 
 
@@ -71,36 +305,80 @@ figcaption
 
 
 
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
 
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
 
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
 
-  
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
 
-  
 
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
 
-  
- 
+
+
+
+//////////////////////////////////////TABLAS////////////////////////////////////
+
+.tabla-a thead 
+  border-top: 6px solid #513018
+  color: #12263F
+  background-color: #EDEAE7
+.tabla-a th
+  border-color: #EDEAE7
+.tabla-a
+  table
+    width: 100%
+    th, td
+      vertical-align: top
+      text-align: left
+      //border: none
+  tbody
+    td:first-child
+      font-weight: bold
+  table th
+    padding: 16px 15px
+    text-align: left
+  table td 
+    padding: 15px 15px
+
+.tabla-a.tab1
+  th:nth-child(1)
+    width: 25%
+  th:nth-child(2)
+    width: 75%
+
+.tabla-a.tab6
+  th:nth-child(1)
+    width: 26%
+  th:nth-child(2)
+    width: 41%
+  th:nth-child(3)
+    width: 33%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

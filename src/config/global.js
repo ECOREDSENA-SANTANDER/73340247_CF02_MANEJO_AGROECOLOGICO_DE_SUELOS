@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Técnicas agroecológicas para el manejo y seguimiento del suelo agrícola',
+    Description:
+      'El componente formativo orienta el desarrollo de conocimientos y prácticas relacionadas con la aplicación de materiales orgánicos y enmiendas para el mejoramiento de las condiciones del suelo, así como el seguimiento de sus características físicas, químicas y biológicas mediante técnicas de manejo agroecológico. A través de este proceso formativo, se promueve la conservación de la fertilidad, el uso sostenible de los recursos naturales y el fortalecimiento de sistemas productivos agrícolas más sostenibles y resilientes.',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
@@ -12,6 +12,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.svg',
       },
     ],
   },
@@ -31,27 +35,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo:
+          'Manejo agroecológico del suelo y aplicación de materiales orgánicos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo:
+          'Técnicas y prácticas para el acondicionamiento del suelo agrícola',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Seguimiento y control de variables agroecológicas del suelo',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          'Verificación de Buenas Prácticas Agrícolas y normatividad en el manejo agroecológico del suelo',
         desarrolloContenidos: true,
       },
     ],
