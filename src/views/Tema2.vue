@@ -20,7 +20,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Concepto e importancia de la labranza
 
-    p.mb-5 La labranza corresponde al conjunto de actividades y prácticas realizadas sobre el suelo con el propósito de prepararlo para la siembra y mejorar sus condiciones físicas, favoreciendo el desarrollo adecuado de los cultivos. Estas actividades pueden realizarse mediante herramientas manuales, equipos agrícolas o maquinaria, dependiendo de las características del sistema productivo y de las condiciones del terreno.
+    p.mb-5(data-aos="fade-left") La labranza corresponde al conjunto de actividades y prácticas realizadas sobre el suelo con el propósito de prepararlo para la siembra y mejorar sus condiciones físicas, favoreciendo el desarrollo adecuado de los cultivos. Estas actividades pueden realizarse mediante herramientas manuales, equipos agrícolas o maquinaria, dependiendo de las características del sistema productivo y de las condiciones del terreno.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -34,7 +34,7 @@
             br
             p.mb-0 El tipo y nivel de labranza aplicado deben responder a las necesidades del cultivo y a las condiciones ambientales del territorio, ya que un manejo inadecuado puede generar afectaciones relacionadas con compactación, erosión y pérdida de fertilidad. Por esta razón, en los sistemas agroecológicos se promueven prácticas de labranza orientadas a la conservación del suelo y al uso sostenible de los recursos naturales.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 2.
@@ -62,7 +62,7 @@
                 td Facilita el control de arvenses
                 td Las labores de labranza ayudan a disminuir la presencia de arvenses que compiten con los cultivos por agua, luz y nutrientes. Esto favorece mejores condiciones para el desarrollo de las plantas cultivadas y facilita la organización y manejo del sistema productivo agrícola.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         img(src='@/assets/curso/tema2/3.png')
         .row.justify-content-center.g-0
@@ -90,9 +90,9 @@
             p.mb-0 Las prácticas de labranza influyen directamente sobre las condiciones físicas, químicas y biológicas del suelo, debido a que modifican su estructura, nivel de compactación, capacidad de retención de agua y actividad biológica. Por esta razón, la forma en que se realiza la preparación del terreno puede contribuir tanto a la conservación como al deterioro de los recursos presentes en el sistema productivo.
         p.mb-0 Una labranza adecuada permite mejorar las condiciones del suelo para el establecimiento y desarrollo de los cultivos, favoreciendo procesos relacionados con infiltración de agua, aireación, incorporación de materia orgánica y desarrollo radicular. Sin embargo, cuando estas prácticas se realizan de manera excesiva o inadecuada, pueden generar procesos de degradación, pérdida de fertilidad y disminución de la sostenibilidad agrícola.
 
-    p.mb-5 Dentro de los enfoques agroecológicos, se promueven prácticas de labranza orientadas a reducir el impacto sobre el suelo y conservar sus propiedades naturales, favoreciendo el equilibrio ambiental y el manejo sostenible de los sistemas productivos. A continuación, algunas ventajas al elegir una práctica de labranza adecuada.
+    p.mb-5(data-aos="fade-right") Dentro de los enfoques agroecológicos, se promueven prácticas de labranza orientadas a reducir el impacto sobre el suelo y conservar sus propiedades naturales, favoreciendo el equilibrio ambiental y el manejo sostenible de los sistemas productivos. A continuación, algunas ventajas al elegir una práctica de labranza adecuada.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         SlyderF(columnas="col-md-6 col-xl-4")
           .tarjeta.tarjeta--slyder.b1.p-3
@@ -142,10 +142,10 @@
             br 
             p.mb-0 La adopción de prácticas seguras favorece ambientes de trabajo más organizados y responsables, contribuyendo a reducir accidentes, prevenir enfermedades laborales y mejorar las condiciones para el desarrollo de las actividades agrícolas. Asimismo, fortalece la protección de los recursos naturales y promueve una cultura de autocuidado dentro del sistema productivo.
 
-    p.mb-5 Recomendaciones básicas:
+    p.mb-5(data-aos="fade-right") Recomendaciones básicas:
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/12.png')
       .col-lg-9
         TabsA.color-acento-botones.mb-0
@@ -169,9 +169,6 @@
             .row.justify-content-center.align-items-center
               .col-lg-12 
                 p.mb-0 Las prácticas inseguras, como el uso inadecuado de herramientas, la manipulación descuidada de equipos o la realización de actividades sin protección, incrementan la posibilidad de accidentes y lesiones. Por esta razón, es necesario promover hábitos de autocuidado, respetar normas de seguridad y desarrollar las actividades agrícolas de manera responsable y organizada.
-
-
-
 
 
 </template>

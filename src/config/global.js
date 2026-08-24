@@ -102,14 +102,110 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Abono orgánico',
+      significado:
+        'Material de origen natural utilizado para mejorar la fertilidad y las condiciones del suelo agrícola.',
+    },
+    {
+      termino: 'Agroecología',
+      significado:
+        'Enfoque que integra principios ecológicos y prácticas sostenibles dentro de los sistemas agrícolas.',
+    },
+    {
+      termino: 'Biofertilizante',
+      significado:
+        'Producto elaborado con microorganismos o materiales orgánicos que favorecen el desarrollo de las plantas y mejoran el suelo.',
+    },
+    {
+      termino: 'Calibración',
+      significado:
+        'Proceso de ajuste y verificación de equipos e instrumentos para garantizar mediciones precisas y confiables.',
+    },
+    {
+      termino: 'Cobertura vegetal',
+      significado:
+        'Vegetación o residuos vegetales que protegen el suelo frente a erosión, pérdida de humedad y degradación.',
+    },
+    {
+      termino: '<em>Compost</em>',
+      significado:
+        'Abono orgánico obtenido mediante descomposición controlada de residuos orgánicos.',
+    },
+    {
+      termino: 'Conservación del suelo',
+      significado:
+        'Conjunto de prácticas orientadas a proteger y mantener las propiedades físicas, químicas y biológicas del suelo.',
+    },
+    {
+      termino: 'Fertilidad',
+      significado:
+        'Capacidad del suelo para suministrar nutrientes y condiciones adecuadas para el crecimiento de las plantas.',
+    },
+    {
+      termino: 'Humedad',
+      significado: 'Cantidad de agua presente en el suelo o en el ambiente.',
+    },
+    {
+      termino: 'Labranza',
+      significado:
+        'Conjunto de actividades realizadas para preparar y acondicionar el suelo antes de la siembra.',
+    },
+    {
+      termino: 'Materia orgánica',
+      significado:
+        'Residuos vegetales o animales descompuestos que aportan nutrientes y mejoran las condiciones del suelo.',
+    },
+    {
+      termino: 'Monitoreo agroecológico',
+      significado:
+        'Seguimiento y evaluación de variables relacionadas con el suelo, los cultivos y el ambiente dentro del sistema agrícola.',
+    },
+    {
+      termino: 'pH',
+      significado:
+        'Medida utilizada para determinar el nivel de acidez o alcalinidad del suelo.',
+    },
+    {
+      termino: 'Sustrato',
+      significado:
+        'Material utilizado para favorecer la germinación y el desarrollo de las plantas.',
+    },
+    {
+      termino: 'Variables agroecológicas',
+      significado:
+        'Factores físicos, químicos y biológicos que permiten evaluar el comportamiento y estado del sistema productivo.',
     },
   ],
   referencias: [
     {
-      referencia: '---',
-      link: '---',
+      referencia:
+        'Ingenierizando. (s. f.). Instrumentos de medición. Ingenierizando.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (s. f.). Índice de normatividad. Instituto Colombiano Agropecuario (ICA).',
+      link: '',
+    },
+    {
+      referencia:
+        'Larrosa Arnal. (s. f.). Labranza: qué es y tipos de labranza. Larrosa Arnal.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lumiform. (s. f.). Buenas prácticas agrícolas: definición, importancia y lista de verificación. Lumiform.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente y Desarrollo Sostenible. (s. f.). Normativa ambiental. Ministerio de Ambiente y Desarrollo Sostenible.',
+      link: '',
+    },
+    {
+      referencia:
+        'SignificadosWeb. (s. f.). Concepto de labranza: qué es, definición. SignificadosWeb.',
+      link: '',
     },
   ],
   creditos: [
@@ -119,11 +215,11 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '---',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -133,9 +229,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Andrés Javier Pacheco Wandurraga',
+          cargo: 'Experto Temático',
+          centro: 'Centro Agroturístico – Regional Santander',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico – Regional Santander',
         },
       ],
     },
@@ -143,18 +244,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Marcos Yamid Rubiano Avellaneda',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Pedro Alonso Bolivar González',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -163,13 +264,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Yineth González Quintero',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

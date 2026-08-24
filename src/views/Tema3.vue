@@ -12,22 +12,22 @@
         img(src='@/assets/curso/tema3/1.png')
       .col-lg-7.ps-lg-0(data-aos="fade-left")
         .bg3.mb-0.p-4
-          img.img-t.mb-4.mt-lg-2(src='@/assets/curso/tema3/3.svg', alt='')
-          p.mb-0.mb-lg-2 El seguimiento de las condiciones del suelo es una práctica clave en los sistemas agrícolas, ya que permite identificar cambios en la fertilidad, humedad, actividad biológica y disponibilidad de nutrientes, mediante procesos de observación, medición y análisis. Este monitoreo facilita detectar problemáticas como erosión, compactación o pérdida de materia orgánica, apoyando la toma de decisiones para mejorar el manejo del suelo y la productividad de los cultivos. Asimismo, el registro de variables agroecológicas como pH, temperatura, humedad y cobertura vegetal permite evaluar el estado del terreno y orientar prácticas como la fertilización, el riego y la conservación del suelo. En conjunto, este seguimiento fortalece la planificación agrícola, la sostenibilidad del sistema productivo y la conservación de los recursos naturales.
+          img.img-t.mb-4.mt-lg-3(src='@/assets/curso/tema3/3.svg', alt='')
+          p.mb-0.mb-lg-1 El seguimiento de las condiciones del suelo es una práctica clave en los sistemas agrícolas, ya que permite identificar cambios en la fertilidad, humedad, actividad biológica y disponibilidad de nutrientes, mediante procesos de observación, medición y análisis. Este monitoreo facilita detectar problemáticas como erosión, compactación o pérdida de materia orgánica, apoyando la toma de decisiones para mejorar el manejo del suelo y la productividad de los cultivos. Asimismo, el registro de variables agroecológicas como pH, temperatura, humedad y cobertura vegetal permite evaluar el estado del terreno y orientar prácticas como la fertilización, el riego y la conservación del suelo. En conjunto, este seguimiento fortalece la planificación agrícola, la sostenibilidad del sistema productivo y la conservación de los recursos naturales.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Conceptos básicos de medición, registro y control
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-right")
+      .col-lg-12(data-aos="fade-left")
         img(src='@/assets/curso/tema3/4.png')
 
-    p.mb-4 La medición, el registro y el control son procesos fundamentales dentro del manejo agroecológico del suelo y del seguimiento de los sistemas productivos agrícolas. 
+    p.mb-4(data-aos="fade-right") La medición, el registro y el control son procesos fundamentales dentro del manejo agroecológico del suelo y del seguimiento de los sistemas productivos agrícolas. 
 
-    p.mb-5 Estas actividades permiten obtener, organizar y analizar información relacionada con las condiciones del suelo, el desarrollo de los cultivos y el comportamiento de diferentes variables agroecológicas presentes en el sistema agrícola.
+    p.mb-5(data-aos="fade-left") Estas actividades permiten obtener, organizar y analizar información relacionada con las condiciones del suelo, el desarrollo de los cultivos y el comportamiento de diferentes variables agroecológicas presentes en el sistema agrícola.
 
-    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
       .col-lg-4.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4.mb-md-4
         .bg7.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema3/5.svg')
@@ -48,7 +48,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia de la medición, control y registro
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         SlyderF(columnas="col-md-6 col-xl-4")
           .tarjeta.tarjeta--slyder.b1.p-3
@@ -97,12 +97,12 @@
             p.mb-0 Las variables agroecológicas corresponden a las características y condiciones que permiten analizar el estado, comportamiento y funcionamiento del suelo dentro de los sistemas productivos agrícolas. Estas variables proporcionan información importante sobre las propiedades físicas, químicas y biológicas del suelo, así como sobre las condiciones ambientales que influyen en el desarrollo de los cultivos y en la sostenibilidad del sistema agrícola.
         p.mb-0 El seguimiento de variables agroecológicas facilita identificar cambios relacionados con fertilidad, humedad, temperatura, compactación, disponibilidad de nutrientes y actividad biológica, permitiendo evaluar cómo las prácticas de manejo implementadas afectan las condiciones del suelo y la productividad agrícola. A través de este análisis es posible reconocer problemáticas, establecer acciones de mejora y fortalecer la conservación de los recursos naturales.
     
-    p.mb-5 Asimismo, las variables agroecológicas contribuyen a comprender la interacción entre suelo, clima, agua, vegetación y actividades agrícolas, favoreciendo procesos de planificación y toma de decisiones dentro del sistema productivo. El monitoreo constante de estas variables permite desarrollar estrategias orientadas a mejorar las condiciones de producción, conservar la fertilidad del suelo y promover prácticas agrícolas más sostenibles y responsables con el ambiente.
+    p.mb-5(data-aos="fade-right") Asimismo, las variables agroecológicas contribuyen a comprender la interacción entre suelo, clima, agua, vegetación y actividades agrícolas, favoreciendo procesos de planificación y toma de decisiones dentro del sistema productivo. El monitoreo constante de estas variables permite desarrollar estrategias orientadas a mejorar las condiciones de producción, conservar la fertilidad del suelo y promover prácticas agrícolas más sostenibles y responsables con el ambiente.
 
     .cajon.color-primario.p-4.mb-5(data-aos="fade-left")
       p.mb-0 Entre las principales variables agroecológicas evaluadas se encuentran humedad del suelo, temperatura, pH, contenido de materia orgánica, cobertura vegetal, presencia de microorganismos, infiltración de agua y desarrollo de los cultivos. La medición y análisis de estas variables fortalecen el seguimiento agroecológico y contribuyen al desarrollo de sistemas productivos más resilientes, eficientes y adaptados a las condiciones del territorio.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 3.
@@ -133,7 +133,7 @@
                 td Actividad biológica
                 td La actividad biológica hace referencia a la presencia y acción de microorganismos, insectos y otros organismos vivos dentro del suelo. Estos organismos participan en procesos naturales como descomposición de materia orgánica, reciclaje de nutrientes y mejoramiento de la fertilidad. Una alta actividad biológica indica condiciones favorables para la sostenibilidad y equilibrio del sistema agrícola.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Técnicas de seguimiento y monitoreo agroecológico
       
@@ -141,10 +141,10 @@
       .col-lg-12(data-aos="fade-right")
         img(src='@/assets/curso/tema3/15.png')
 
-    p.mb-5 El monitoreo agroecológico es el conjunto de prácticas orientadas a observar, medir, registrar y evaluar las condiciones del sistema productivo agrícola, permitiendo conocer el comportamiento del suelo, los cultivos y el entorno ambiental. A través de este proceso se identifican cambios físicos, químicos y biológicos, así como problemáticas como erosión, compactación, pérdida de fertilidad o presencia de plagas, lo que facilita la toma de decisiones para mejorar la producción y conservar los recursos naturales. Asimismo, el seguimiento de variables agroecológicas y prácticas sostenibles permite evaluar la efectividad de acciones como el manejo del suelo, la aplicación de materia orgánica, la cobertura vegetal y el uso del agua. En conjunto, el monitoreo fortalece la planificación agrícola y contribuye al desarrollo de sistemas productivos más sostenibles, resilientes y eficientes.
+    p.mb-5(data-aos="fade-left") El monitoreo agroecológico es el conjunto de prácticas orientadas a observar, medir, registrar y evaluar las condiciones del sistema productivo agrícola, permitiendo conocer el comportamiento del suelo, los cultivos y el entorno ambiental. A través de este proceso se identifican cambios físicos, químicos y biológicos, así como problemáticas como erosión, compactación, pérdida de fertilidad o presencia de plagas, lo que facilita la toma de decisiones para mejorar la producción y conservar los recursos naturales. Asimismo, el seguimiento de variables agroecológicas y prácticas sostenibles permite evaluar la efectividad de acciones como el manejo del suelo, la aplicación de materia orgánica, la cobertura vegetal y el uso del agua. En conjunto, el monitoreo fortalece la planificación agrícola y contribuye al desarrollo de sistemas productivos más sostenibles, resilientes y eficientes.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 4.
@@ -172,7 +172,7 @@
                 td Evaluación de cobertura vegetal
                 td La evaluación de cobertura vegetal permite analizar la presencia de plantas, residuos vegetales o coberturas orgánicas sobre la superficie del suelo. Esta técnica facilita identificar el nivel de protección del terreno frente a erosión, pérdida de humedad y cambios de temperatura, además de evaluar el aporte de las coberturas al fortalecimiento de la biodiversidad y la conservación del sistema productivo.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Equipos e instrumentos de medición
 
@@ -185,7 +185,7 @@
           .bloque-texto-g__texto.p-lg-5.p-4
             p.mb-0 Los equipos e instrumentos utilizados en el seguimiento agroecológico permiten realizar mediciones y evaluaciones de variables agrícolas, ambientales y productivas, facilitando la obtención de información precisa sobre el suelo, los cultivos y el entorno. Su uso contribuye al monitoreo de factores como humedad, temperatura, pH, precipitación y crecimiento de las plantas, lo que apoya la toma de decisiones en prácticas como fertilización, riego y conservación del suelo. Además, estos instrumentos permiten registrar y analizar datos de forma organizada, favoreciendo el seguimiento del sistema productivo y la evaluación de resultados a lo largo del tiempo. Entre los más utilizados se encuentran termómetros, medidores de pH, cintas métricas, balanzas, pluviómetros e higrómetros, esenciales para el manejo sostenible de los sistemas agrícolas.
 
-    .titu.p-2.mb-5
+    .titu.p-2.mb-5(data-aos="fade-left")
       h4.mb-0.ps-3.pe-3 Equipos básicos
 
     .row.justify-content-center.align-items-center.mb-5
@@ -244,7 +244,7 @@
         img.img-t.mb-3(src='@/assets/curso/tema3/23.svg')
         p.mb-0 La calibración es el proceso de ajustar y verificar los equipos e instrumentos utilizados en las actividades agrícolas para garantizar mediciones precisas, confiables y acordes con las condiciones reales del sistema productivo. En el manejo agroecológico del suelo, este proceso es esencial para el correcto funcionamiento de instrumentos como medidores de pH, balanzas, termómetros e higrómetros, asegurando información confiable para el seguimiento de variables agrícolas y ambientales. Una adecuada calibración mejora la eficiencia de las labores agrícolas, facilita el control de los procesos productivos y apoya la toma de decisiones en aspectos como fertilización, riego y conservación del suelo, además de prevenir errores que puedan afectar los cultivos o el uso de los recursos.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 5.

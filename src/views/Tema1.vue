@@ -11,9 +11,9 @@
       .col-lg-5.mb-lg-0.mb-0.pe-lg-0.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/tema1/1.png')
       .col-lg-7.ps-lg-0(data-aos="fade-left")
-        .bg3.mb-0.p-5
-          img.img-t.mb-4(src='@/assets/curso/tema1/2.svg', alt='')
-          p.mb-0 El manejo agroecológico del suelo constituye una práctica fundamental para garantizar la sostenibilidad de los sistemas productivos agrícolas. A través de la aplicación de materiales orgánicos, el manejo adecuado de sustratos y la implementación de prácticas de conservación, es posible fortalecer la fertilidad del suelo, mejorar sus condiciones físicas, químicas y biológicas, y favorecer el desarrollo adecuado de los cultivos. Estas acciones permiten optimizar el uso de recursos naturales y promover sistemas agrícolas más resilientes y sostenibles.
+        .bg3.mb-0.p-4
+          img.img-t.mb-4.mt-lg-1(src='@/assets/curso/tema1/2.svg', alt='')
+          p.mb-0.mb-lg-2 El manejo agroecológico del suelo constituye una práctica fundamental para garantizar la sostenibilidad de los sistemas productivos agrícolas. A través de la aplicación de materiales orgánicos, el manejo adecuado de sustratos y la implementación de prácticas de conservación, es posible fortalecer la fertilidad del suelo, mejorar sus condiciones físicas, químicas y biológicas, y favorecer el desarrollo adecuado de los cultivos. Estas acciones permiten optimizar el uso de recursos naturales y promover sistemas agrícolas más resilientes y sostenibles.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -64,10 +64,10 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Unidades de medida: peso, volumen y área
 
-    p.mb-5 Las unidades de medida son herramientas fundamentales en la agricultura, ya que permiten cuantificar, comparar y controlar diferentes aspectos del sistema productivo, como materiales, dimensiones del terreno, volúmenes de agua e insumos. Su correcta aplicación facilita la planificación y ejecución de actividades agrícolas como la preparación del suelo, siembra, fertilización, riego y cosecha, contribuyendo a una mayor eficiencia en el uso de los recursos. En los procesos agroecológicos, estas mediciones son esenciales para garantizar el uso responsable de insumos orgánicos y recursos naturales, evitando desperdicios y favoreciendo el seguimiento del sistema productivo. En general, las unidades de medida de peso, volumen y área permiten organizar y optimizar las labores agrícolas de manera precisa y sostenible.
+    p.mb-5(data-aos="fade-left") Las unidades de medida son herramientas fundamentales en la agricultura, ya que permiten cuantificar, comparar y controlar diferentes aspectos del sistema productivo, como materiales, dimensiones del terreno, volúmenes de agua e insumos. Su correcta aplicación facilita la planificación y ejecución de actividades agrícolas como la preparación del suelo, siembra, fertilización, riego y cosecha, contribuyendo a una mayor eficiencia en el uso de los recursos. En los procesos agroecológicos, estas mediciones son esenciales para garantizar el uso responsable de insumos orgánicos y recursos naturales, evitando desperdicios y favoreciendo el seguimiento del sistema productivo. En general, las unidades de medida de peso, volumen y área permiten organizar y optimizar las labores agrícolas de manera precisa y sostenible.
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-3
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/11.png')
       .col-lg-9
         TabsA.color-acento-botones.mb-0
@@ -96,7 +96,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Modos de aplicación de material orgánico
 
-    p.mb-5 Los materiales orgánicos son utilizados para mejorar las condiciones del suelo y favorecer el desarrollo de los cultivos. Su aplicación debe realizarse de acuerdo con las necesidades del sistema productivo y las características del cultivo.
+    p.mb-5(data-aos="fade-right") Los materiales orgánicos son utilizados para mejorar las condiciones del suelo y favorecer el desarrollo de los cultivos. Su aplicación debe realizarse de acuerdo con las necesidades del sistema productivo y las características del cultivo.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -151,10 +151,10 @@
             br 
             p.mb-0 El manejo adecuado de los sustratos es fundamental para garantizar la producción de plantas sanas y vigorosas, ya que las condiciones físicas, químicas y biológicas del material utilizado influyen directamente en procesos como germinación, absorción de agua, desarrollo radicular y crecimiento de las plantas. Un sustrato con características apropiadas facilita el establecimiento de los cultivos y contribuye a mejorar las condiciones de producción agrícola.
     
-    .titu.p-2.mb-5
+    .titu.p-2.mb-5(data-aos="fade-right")
       h4.mb-0.ps-3.pe-3 Características de un buen sustrato
 
-    p.mb-5 Un buen sustrato debe presentar condiciones adecuadas que favorezcan el crecimiento, desarrollo y establecimiento de las plantas dentro del sistema productivo. La calidad del sustrato influye directamente en procesos como germinación, absorción de nutrientes, retención de agua y desarrollo de raíces, por lo que su selección y manejo son fundamentales para garantizar cultivos más saludables y productivos.
+    p.mb-5(data-aos="fade-left") Un buen sustrato debe presentar condiciones adecuadas que favorezcan el crecimiento, desarrollo y establecimiento de las plantas dentro del sistema productivo. La calidad del sustrato influye directamente en procesos como germinación, absorción de nutrientes, retención de agua y desarrollo de raíces, por lo que su selección y manejo son fundamentales para garantizar cultivos más saludables y productivos.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -190,10 +190,10 @@
             h4.text-center.mb-4 Bajo nivel de contaminación
             p.mb-0.text-center El sustrato debe encontrarse libre de sustancias tóxicas, residuos contaminantes, semillas de arvenses, plagas o microorganismos que puedan afectar el crecimiento de las plantas o deteriorar las condiciones del sistema productivo. El uso de materiales limpios y adecuadamente manejados favorece la producción de cultivos más sanos y disminuye riesgos fitosanitarios.
 
-    .titu.p-2.mb-5
+    .titu.p-2.mb-5(data-aos="fade-left")
       h4.mb-0.ps-3.pe-3 Tipos de sustratos
 
-    p.mb-5 Los sustratos utilizados en los sistemas agrícolas cumplen funciones importantes relacionadas con el soporte de las plantas, la retención de humedad, la aireación y la disponibilidad de nutrientes. La selección del tipo de sustrato depende de las necesidades del cultivo, las condiciones ambientales y el propósito de producción, especialmente en actividades de germinación, propagación y establecimiento de plántulas.
+    p.mb-5(data-aos="fade-right") Los sustratos utilizados en los sistemas agrícolas cumplen funciones importantes relacionadas con el soporte de las plantas, la retención de humedad, la aireación y la disponibilidad de nutrientes. La selección del tipo de sustrato depende de las necesidades del cultivo, las condiciones ambientales y el propósito de producción, especialmente en actividades de germinación, propagación y establecimiento de plántulas.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -228,9 +228,9 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Prácticas de conservación del suelo
 
-    p.mb-5 Las prácticas de conservación buscan proteger el suelo frente a procesos de degradación y pérdida de fertilidad.
+    p.mb-5(data-aos="fade-left") Las prácticas de conservación buscan proteger el suelo frente a procesos de degradación y pérdida de fertilidad.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 1.
@@ -260,14 +260,6 @@
               tr
                 td Manejo adecuado del agua
                 td Comprende el uso responsable y eficiente del recurso hídrico dentro de las actividades agrícolas. Incluye prácticas orientadas a optimizar el riego, evitar desperdicios y prevenir procesos de erosión o contaminación. El manejo adecuado del agua favorece el desarrollo de los cultivos, fortalece la conservación del suelo y contribuye a la sostenibilidad de los sistemas productivos.
-
-
-
-
-
-
-
-
 
 
 </template>

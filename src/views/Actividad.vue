@@ -19,488 +19,660 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Prueba sobre técnicas agroecológicas para el manejo del suelo agrícola',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar los conocimientos relacionados con las técnicas agroecológicas para el manejo, conservación y seguimiento del suelo agrícola, mediante el reconocimiento de prácticas sostenibles, variables agroecológicas, Buenas Prácticas Agrícolas y procesos de monitoreo dentro de los sistemas productivos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué busca la agroecología en los sistemas agrícolas?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Incrementar únicamente la producción.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Promover sistemas sostenibles y equilibrados.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Eliminar completamente el uso del suelo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Sustituir todos los cultivos tradicionales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál es una función principal de la materia orgánica en el suelo?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Reducir la infiltración de agua.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Compactar el terreno.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Mejorar la fertilidad del suelo.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Eliminar microorganismos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué unidad se utiliza para medir superficie agrícola?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Litro.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Kilogramo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Gramo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto: 'Metro cuadrado.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué práctica ayuda a conservar la humedad del suelo?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
+              texto: 'Uso de cobertura vegetal.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Eliminación de coberturas vegetales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Compactación del terreno.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Quema de residuos vegetales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál es un ejemplo de abono orgánico?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+              texto: 'Plástico agrícola.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Cemento.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Combustible.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: 'Compost.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué permite la calibración de equipos?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Reducir la fertilidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
+              texto: 'Aumentar la erosión.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Eliminar registros agrícolas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
+              texto: 'Garantizar mediciones precisas.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué variable permite conocer la acidez del suelo?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Humedad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Temperatura.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
+              texto: 'pH.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Cobertura vegetal.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál es una práctica sostenible?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Uso excesivo de agroquímicos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Tala de bosques.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Quema de cobertura vegetal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Rotación de cultivos.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué herramienta se utiliza para medir peso?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Balanza.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Termómetro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Higrómetro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Regla.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué favorece la labranza adecuada?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Mayor erosión.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Compactación del suelo.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Pérdida de nutrientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aireación del suelo.',
+              esCorrecta: true,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Cuál es la finalidad del monitoreo agroecológico?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Eliminar los cultivos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Observar y evaluar el sistema productivo.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Incrementar contaminación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar registros agrícolas.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Qué práctica protege el suelo frente a la erosión?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminación de vegetación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Uso de barreras vivas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Compactación constante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso excesivo de maquinaria.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+        },
+        {
+          id: 13,
+          texto: '¿Qué instrumento mide temperatura?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Higrómetro.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Medidor de pH.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Balanza.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Termómetro.',
               esCorrecta: true,
             },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué permite el manejo de registros agrícolas?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Desorganizar información.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Eliminar seguimiento agrícola.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Organizar y controlar actividades productivas.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Incrementar pérdidas de información.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué práctica ayuda a proteger las fuentes hídricas?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Vertimiento de residuos contaminantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Conservación de bosques.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminación de cobertura vegetal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso excesivo de químicos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+        },
+        {
+          id: 16,
+          texto: '¿Cuál es un beneficio de las Buenas Prácticas Agrícolas?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar riesgos laborales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Favorecer la sostenibilidad agrícola.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aumentar contaminación ambiental.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Deteriorar el suelo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué tipo de labranza evita remover el suelo?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Labranza convencional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Labranza intensiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Labranza cero.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Labranza mecánica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué elemento protege al trabajador agrícola?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Casco.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Cuchilla.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Guadaña.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Fertilizante.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué permite evaluar la humedad del suelo?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Seguimiento de variables agroecológicas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Tala de árboles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminación de registros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Quema de residuos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+        },
+        {
+          id: 20,
+          texto: '¿Cuál es una finalidad de las prácticas sostenibles?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Deteriorar recursos naturales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir biodiversidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Fortalecer sistemas agrícolas sostenibles.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Incrementar contaminación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha demostrado un adecuado dominio de los conceptos relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
+          mensaje_incorrecto:
+            'Le recomendamos revisar nuevamente los contenidos del componente formativo relacionados con las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre las técnicas agroecológicas para el manejo y seguimiento del suelo agrícola.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

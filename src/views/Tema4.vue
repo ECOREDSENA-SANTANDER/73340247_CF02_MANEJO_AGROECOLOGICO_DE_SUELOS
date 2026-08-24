@@ -7,7 +7,7 @@
         span 4
       h1 Verificación de Buenas Prácticas Agrícolas y normatividad en el manejo agroecológico del suelo
 
-    .row.justify-content-center.align-items-end.mb-5
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-9
         .bg1.p-4.p-lg-5.mb-0
           img.img-t.mb-4(src='@/assets/curso/tema4/2.svg')
@@ -15,7 +15,7 @@
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema4/1.png')
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Verificación de Buenas Prácticas Agrícolas (BPA)
 
@@ -23,7 +23,7 @@
       .col-lg-12(data-aos="fade-right")
         img(src='@/assets/curso/tema4/3.png')
     
-    p.mb-5 Las Buenas Prácticas Agrícolas (BPA) son un conjunto de orientaciones y procedimientos que buscan reducir riesgos de contaminación en la producción agrícola, garantizando la #[b inocuidad y seguridad alimentaria] de los productos. Su implementación responde a la creciente preocupación por enfermedades transmitidas por alimentos, asociadas a microorganismos como #[em Salmonella y Escherichia coli], y a la exigencia de mercados que solicitan sistemas de producción más seguros y controlados. La certificación en BPA permite evidenciar el cumplimiento de criterios de calidad, higiene y sostenibilidad mediante herramientas como listas de chequeo, registros y evaluaciones. Su verificación, a través de la observación y el seguimiento del sistema productivo, permite identificar fortalezas y aspectos de mejora relacionados con el manejo del suelo, los insumos y las condiciones de producción agrícola.
+    p.mb-5(data-aos="fade-left") Las Buenas Prácticas Agrícolas (BPA) son un conjunto de orientaciones y procedimientos que buscan reducir riesgos de contaminación en la producción agrícola, garantizando la #[b inocuidad y seguridad alimentaria] de los productos. Su implementación responde a la creciente preocupación por enfermedades transmitidas por alimentos, asociadas a microorganismos como #[em Salmonella y Escherichia coli], y a la exigencia de mercados que solicitan sistemas de producción más seguros y controlados. La certificación en BPA permite evidenciar el cumplimiento de criterios de calidad, higiene y sostenibilidad mediante herramientas como listas de chequeo, registros y evaluaciones. Su verificación, a través de la observación y el seguimiento del sistema productivo, permite identificar fortalezas y aspectos de mejora relacionados con el manejo del suelo, los insumos y las condiciones de producción agrícola.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -66,7 +66,7 @@
             br 
             p.mb-0 En el sector agrícola, la normatividad ambiental establece medidas relacionadas con el manejo adecuado de residuos, protección de fuentes hídricas, conservación de ecosistemas y uso responsable de insumos agrícolas. Asimismo, promueve prácticas orientadas a prevenir la contaminación y fortalecer la sostenibilidad de los sistemas productivos.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 6.
@@ -104,11 +104,11 @@
                 td La normatividad colombiana establece medidas orientadas a proteger la salud y seguridad de las personas que desarrollan actividades agrícolas. Esto incluye uso de elementos de protección personal, manejo seguro de herramientas y prevención de riesgos laborales dentro del sistema productivo.
                 td Decreto 1072 de 2015; Ley 1562 de 2012; Resolución 0312 de 2019.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia de la conservación ambiental en sistemas productivos
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.mb-lg-0.mb-4.d-none.d-lg-block
         img(src='@/assets/curso/tema4/6.png')
       .col-lg-7
@@ -121,7 +121,7 @@
 
         p.mb-0 Beneficios de la conservación ambiental:
 
-    .row.justify-content-center.align-items.mb-4
+    .row.justify-content-center.align-items.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .bg4.p-3.h-100
           p.mb-0.text-center.text-white #[b Protección de recursos naturales como suelo, agua, aire y vegetación mediante prácticas sostenibles.]  
@@ -132,7 +132,7 @@
         .bg4.p-3.h-100
           p.mb-0.text-center.text-white #[b Reducción de impactos ambientales como erosión, contaminación y degradación del suelo.] 
 
-    .row.justify-content-center.align-items.mb-5
+    .row.justify-content-center.align-items.mb-5(data-aos="fade-right")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .bg5.p-3.h-100
           p.mb-0.mb-lg-3.mt-lg-3.text-center #[b Fortalecimiento de la productividad agrícola mediante mejores condiciones del entorno.]
@@ -143,15 +143,13 @@
         .bg5.p-3.h-100
           p.mb-0.mb-lg-3.mt-lg-3.text-center #[b Promoción de sistemas agrícolas sostenibles, resilientes y responsables con el ambiente.] 
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Manejo de formatos y registros agrícolas
 
-    p.mb-5 Los formatos y registros agrícolas son herramientas clave para la organización, control y seguimiento de las actividades en los sistemas productivos, ya que permiten recopilar y organizar información sobre labores agrícolas, manejo del suelo, insumos y condiciones ambientales. Su uso facilita el control de las actividades, la evaluación de resultados y la toma de decisiones basadas en información confiable. En el manejo agroecológico del suelo, permiten documentar prácticas como la aplicación de materia orgánica y el seguimiento de variables agroecológicas, apoyando la sostenibilidad del sistema. Además, contribuyen a la eficiencia productiva, la trazabilidad y el cumplimiento de las Buenas Prácticas Agrícolas y la normatividad ambiental.
+    p.mb-5(data-aos="fade-right") Los formatos y registros agrícolas son herramientas clave para la organización, control y seguimiento de las actividades en los sistemas productivos, ya que permiten recopilar y organizar información sobre labores agrícolas, manejo del suelo, insumos y condiciones ambientales. Su uso facilita el control de las actividades, la evaluación de resultados y la toma de decisiones basadas en información confiable. En el manejo agroecológico del suelo, permiten documentar prácticas como la aplicación de materia orgánica y el seguimiento de variables agroecológicas, apoyando la sostenibilidad del sistema. Además, contribuyen a la eficiencia productiva, la trazabilidad y el cumplimiento de las Buenas Prácticas Agrícolas y la normatividad ambiental.
 
-
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 7.
@@ -190,12 +188,12 @@
       h3.mb-0 Prácticas sostenibles para el manejo agroecológico del suelo
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12(data-aos="fade-right")
+      .col-lg-12(data-aos="fade-left")
         img(src='@/assets/curso/tema4/8.png')
     
-    p.mb-5 Las prácticas sostenibles son un conjunto de técnicas y acciones orientadas a conservar el suelo, proteger los recursos naturales y promover sistemas agrícolas más eficientes y responsables con el ambiente. Su aplicación busca mantener la fertilidad del suelo, la disponibilidad de agua y la biodiversidad, reduciendo problemas como la erosión, la compactación y la pérdida de nutrientes. Además, favorecen procesos naturales como la descomposición de materia orgánica, el reciclaje de nutrientes y la actividad de microorganismos, mejorando las condiciones físicas, químicas y biológicas del suelo. En conjunto, estas prácticas optimizan el uso de insumos, fortalecen la productividad y contribuyen al desarrollo de sistemas agrícolas más resilientes y acordes con la agroecología.
+    p.mb-5(data-aos="fade-right") Las prácticas sostenibles son un conjunto de técnicas y acciones orientadas a conservar el suelo, proteger los recursos naturales y promover sistemas agrícolas más eficientes y responsables con el ambiente. Su aplicación busca mantener la fertilidad del suelo, la disponibilidad de agua y la biodiversidad, reduciendo problemas como la erosión, la compactación y la pérdida de nutrientes. Además, favorecen procesos naturales como la descomposición de materia orgánica, el reciclaje de nutrientes y la actividad de microorganismos, mejorando las condiciones físicas, químicas y biológicas del suelo. En conjunto, estas prácticas optimizan el uso de insumos, fortalecen la productividad y contribuyen al desarrollo de sistemas agrícolas más resilientes y acordes con la agroecología.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 8.
