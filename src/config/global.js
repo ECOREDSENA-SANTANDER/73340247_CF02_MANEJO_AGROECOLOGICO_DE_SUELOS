@@ -230,7 +230,7 @@ export default {
       autores: [
         {
           nombre: 'Andrés Javier Pacheco Wandurraga',
-          cargo: 'Experto Temático',
+          cargo: 'Experto temático',
           centro: 'Centro Agroturístico – Regional Santander',
         },
         {

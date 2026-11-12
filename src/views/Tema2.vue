@@ -71,7 +71,7 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="<i>Podcast</i>: Tipos de labranza"
-                :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
+                :audio="require_src('@/assets/actividad/audio/CF02_73340247_Manejo_agroecologico_de_suelos.mp3')"
               ).mb-4
                 p.mb-0 Se invita a los aprendices a escuchar el #[em podcast] sobre los tipos de labranza, en el que podrán conocer sus principales características, diferencias y efectos sobre el suelo y los cultivos, fortaleciendo así sus conocimientos para la implementación de prácticas de manejo sostenible del suelo.
 
